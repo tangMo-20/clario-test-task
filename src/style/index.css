@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.left-part {
+    align-items: flex-start;
+}
+
+.right-part {
+    align-items: flex-end;
+}

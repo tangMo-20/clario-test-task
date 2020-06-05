@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  background-color: #f7f7fa;
+  font-family: "DM Sans";
+  min-width: calc(772px + 80px);
+}
+
+.content-side {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 80px);
+}
+
+/*# sourceMappingURL=App.css.map */

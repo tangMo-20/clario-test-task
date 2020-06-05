@@ -1,0 +1,49 @@
+.sidebar {
+  width: 80px;
+  min-height: 100vh;
+}
+
+.sidebar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  background-color: #007aff;
+}
+
+.sidebar__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100% - 80px);
+  background-color: #373b53;
+  padding: 48px 0;
+}
+
+.sidebar__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  width: 54px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.active_tab {
+  background-color: white;
+}
+
+.disabled_tab {
+  background-color: transparent;
+}
+
+.sidebar__button:hover {
+  background-color: white;
+}
+
+/*# sourceMappingURL=Sidebar.css.map */
